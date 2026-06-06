@@ -2,7 +2,8 @@ import axios from 'axios'
 import { ElMessage, ElLoading } from 'element-plus'
 
 const request = axios.create({
-  baseURL: '/api',
+  //baseURL: '/api',
+  baseURL: 'https://your-backend-service.up.railway.app',
   timeout: 10000
 })
 
