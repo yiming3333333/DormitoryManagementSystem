@@ -8,7 +8,7 @@ export default defineConfig({
     proxy: {
       '/api': {
         //target: 'http://localhost:8080',
-        target: 'https://your-backend-service.up.railway.app',
+        target: 'http://dormitorymanagementsystem-production.up.railway.app',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, '')
       }
