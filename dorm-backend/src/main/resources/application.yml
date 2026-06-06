@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/dorm_db?useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
+    url: mysql://root:xRTgnzRsAMqLyIClPaXeppcBpAqYekvH@mysql.railway.internal:3306/railway
     username: root
-    password: 200626
+    password: 200626xRTgnzRsAMqLyIClPaXeppcBpAqYekvH
     driver-class-name: com.mysql.cj.jdbc.Driver
 
 mybatis-plus:
