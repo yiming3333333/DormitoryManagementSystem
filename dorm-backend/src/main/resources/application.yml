@@ -15,7 +15,7 @@ mybatis-plus:
       logic-not-delete-value: 0
 
 server:
-  port: 8080
+  port: ${PORT:8080}
 
 jwt:
   secret: dormSystemSecretKey2026MustBeLongEnoughForHS256
